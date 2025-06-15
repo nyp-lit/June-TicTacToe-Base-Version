@@ -2,9 +2,9 @@
 Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQAybw5L1ovbAvIss/edit?usp=sharing
 
 # Information
-Packages used: \
-Node Js \
-Socket.io 
+# Package used
+- Node Js \
+- Socket.io 
 
 # Steps to setup
 Ensure Visual Studio Code is installed
