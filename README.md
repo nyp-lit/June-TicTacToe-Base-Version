@@ -3,14 +3,15 @@ Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQ
 
 # Information
 Packages used:
-Node Js, 
-Socket.io 
+Node Js \
+Socket.io \ 
 
 # Steps to setup
 Ensure Visual Studio Code is installed
-if not installed, Visit https://code.visualstudio.com/ 
+if not installed \
+Visit https://code.visualstudio.com/ 
 
-Install Node Js v22.16.0
+Install Node Js v22.16.0 \
 https://nodejs.org/en
 
 #Fork the repository from github 
