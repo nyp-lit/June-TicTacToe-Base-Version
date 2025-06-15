@@ -14,5 +14,6 @@ Visit https://code.visualstudio.com/
 Install Node Js v22.16.0 \
 https://nodejs.org/en
 
-#Fork the repository from github 
+# Command steps to install in VSC Terminal  
+Fork the repository from github 
 
