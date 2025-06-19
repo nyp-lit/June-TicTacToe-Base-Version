@@ -31,7 +31,7 @@ Select open in integrated terminal \
 ![Screenshot 2025-06-19 191344](https://github.com/user-attachments/assets/c911365f-d9b1-413e-81a9-9f654d3f5b2a)
 
 # Step 5
-Run the following Commands:
+Run the following Commands: \
 node -v - Check version of Node js \
 npm -v - Check version of Node Package Manager \
 npm init -y - Creates Package.json \
