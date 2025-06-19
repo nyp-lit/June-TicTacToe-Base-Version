@@ -1,10 +1,9 @@
-![image](https://github.com/user-attachments/assets/1c12ccb1-dd26-4769-9009-eeef0b86c9f9)# June-TicTacToe-Base-Version
+# June-TicTacToe-Base-Version
 Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQAybw5L1ovbAvIss/edit?usp=sharing
 
-# Information
 # Package used
 - Node Js 
-- Socket.io 
+- Socket.io
 
 # Steps to setup
 # Step 1
