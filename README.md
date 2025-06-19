@@ -3,7 +3,7 @@ Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQ
 
 # Information
 # Package used
-- Node Js \
+- Node Js 
 - Socket.io 
 
 # Steps to setup
