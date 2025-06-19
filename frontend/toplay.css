@@ -1,0 +1,180 @@
+/* ========== Basic Page Reset ========== */
+body {
+    margin: 0; /* Removes default margin from the body */
+    font-family: Arial, sans-serif; /* Sets the default font */
+    text-align: center; /* Center-aligns all text content */
+}
+
+/* ========== Top Bar ========== */
+.top-bar {
+    background-color: #4A10A2; /* Purple background */
+    color: white;
+    padding: 10px;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center; /* Vertically centers content */
+    display: flex; /* Enables flex layout for logo positioning */
+}
+
+/* ========== Main Header Below Top Bar ========== */
+.header {
+    background-color: #5C2D91; /* Dark purple background */
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif; /* Stylish font */
+}
+
+/* ========== Player Setup Section ========== */
+.player-setup {
+    margin-top: 20px; /* Adds spacing above the section */
+}
+
+/* Inputs and labels within the setup section */
+.player-setup input,
+.player-setup select,
+.player-setup label {
+    margin: 5px;
+    padding: 8px;
+}
+
+/* ========== Color Picker Container Styling (Start from here!) ========== */ 
+
+
+/* ========== Game Board Styling ========== */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 columns, each 100px */
+    gap: 5px; /* Gap between cells */
+    justify-content: center; /* Center the board horizontally */
+    margin: 20px auto;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    max-width: 330px; /* Prevents it from being too wide */
+}
+
+/* Individual cell styling */
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #4A10A2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+/* ========== Button Base Styling ========== */
+.btn {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* ========== Unique Button Colors ========== */
+.btn-player1 {
+    background-color: #E66EBB; /* Pink */
+}
+
+.btn-player2 {
+    background-color: #5C2D91; /* Dark Purple */
+}
+
+.btn-start {
+    background-color: #4A10A2; /* Primary Purple */
+}
+
+.btn-reset {
+    background-color: #5C2D91;
+}
+
+.btn-scoreboard {
+    background-color: #E66EBB;
+}
+
+.btn-nav {
+    background-color: #4A10A2;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #3881FF; /* Blue on hover */
+}
+
+/* ========== Scoreboard Styling ========== */
+.scoreboard {
+    margin-top: 20px;
+}
+
+.scoreboard p {
+    font-size: 18px;
+}
+
+/* ========== Floating Letters Animation ========== */
+
+/* Animation keyframes for floating motion */
+@keyframes floatUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Container to hold floating elements */
+#floating-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allows clicks to pass through */
+    z-index: 0; /* Behind everything else */
+}
+
+/* General style for floating elements */
+.floating {
+    position: absolute;
+    font-size: 42px;
+    font-weight: bold;
+    animation: floatUpDown 4s ease-in-out infinite; /* Loops forever */
+    pointer-events: none;
+    z-index: 0;
+    user-select: none; /* Prevents selection */
+}
+
+/* Floating X styling (light purple) */
+.floating-x {
+    color: rgba(74, 16, 162, 0.15);
+}
+
+/* Floating O styling (light blue) */
+.floating-o {
+    color: rgba(56, 129, 255, 0.15);
+}
+
+/* ========== Responsive Design for Small Screens ========== */
+@media (max-width: 600px) {
+    .color-picker {
+        padding: 10px;
+    }
+
+    .color-picker label {
+        display: block; /* Stack labels on small screens */
+        margin: 8px 5px;
+    }
+
+    .color-picker input[type="color"] {
+        margin-bottom: 10px;
+    }
+}

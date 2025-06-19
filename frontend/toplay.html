@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe game</title>
+  <link rel="icon" href="image.png" type="image/png">
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="toplay.css" />
+  <!-- Socket.IO library for real-time connection between client and server -->
+  <script src="/socket.io/socket.io.js"></script> 
+</head>
+
+<body>
+  <!-- ========== Top Branding Section ========== -->
+  <div class="top-bar">
+    <!-- Game logo -->
+    <img src="logo.png" alt="Logo" style="max-height: 60px; margin-left: 20px;" />
+  </div>
+
+  <!-- Game title header -->
+  <div class="header">Tic-Tac-Toe</div>
+
+  <!-- ========== Player Setup & Color Selection Section ========== -->
+  <div class="player-setup">
+    
+    <!-- Input for Player 1's name and button to confirm -->
+    <input type="text" id="player1" placeholder="Player 1 Name (X)" />
+    <button class="btn btn-player1" onclick="setPlayer(1)">Set Player 1</button><br />
+
+    <!-- Input for Player 2's name and button to confirm -->
+    <input type="text" id="player2" placeholder="Player 2 Name (O)" />
+    <button class="btn btn-player2" onclick="setPlayer(2)">Set Player 2</button><br />
+
+    <!-- Customizable color picker inputs for X, O and board bg (Start from here!)-->
+    
+
+    <!-- Game control buttons -->
+    <button class="btn btn-start" onclick="startGame()">Start Game</button>
+    <button class="btn btn-reset" onclick="resetGame()">Reset Game</button>
+    <button class="btn btn-scoreboard" onclick="restartScoreboard()">Restart Scoreboard</button>
+  </div>
+
+  <!-- ========== Scoreboard Section ========== -->
+  <div class="scoreboard">
+    <h3>Scoreboard</h3>
+    <!-- Score for Player X -->
+    <p id="scoreX">Player 1 (X): 0</p>
+    <!-- Score for Player O -->
+    <p id="scoreO">Player 2 (O): 0</p>
+  </div>
+
+  <!-- ========== Game Board Section ========== -->
+  <div class="game-board" id="board">
+    <!-- Game cells will be created and inserted by JavaScript -->
+  </div>
+
+  <!-- ========== Navigation Buttons ========== -->
+  <button class="btn btn-nav" onclick="location.href='coverpage.html'">Back to Menu</button>
+  <button class="btn btn-nav" onclick="location.href='instructions.html'">How to Play</button>
+
+  <!-- ========== Floating Symbol Container ========== -->
+  <div id="floating-container">
+    <!-- Floating X and O animations will be added by JavaScript -->
+  </div>
+
+  <!-- ========== Main JavaScript File ========== -->
+  <!-- Contains the game's interactive logic -->
+  <script src="toplay.js"></script>
+</body>
+</html>
