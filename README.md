@@ -1,5 +1,6 @@
 # June-TicTacToe-Base-Version
 Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQAybw5L1ovbAvIss/edit?usp=sharing
+Practical Workshop Reference Document: https://docs.google.com/document/d/1CbW9NSMyRpD-D0SE0RnTgXM2b500L4d2Ir5gAAfkUqU/edit?usp=sharing
 
 # Package used
 - Node Js 
