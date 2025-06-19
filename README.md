@@ -32,10 +32,10 @@ Select open in integrated terminal \
 
 # Step 5
 Run the following Commands:
-node -v - Check version of Node js
-npm -v - Check version of Node Package Manager 
-npm init -y - Creates Package.json 
-npm i express - Creates Node modules folder 
+node -v - Check version of Node js \
+npm -v - Check version of Node Package Manager \
+npm init -y - Creates Package.json \
+npm i express - Creates Node modules folder \
 npm i socket.io - Install socket.io library 
 
 # Step 6
