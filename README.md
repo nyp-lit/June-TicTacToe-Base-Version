@@ -24,10 +24,10 @@ open Visual Studio Code
 open the folder that you have just downloaded 
 
 # Step 4
-Right click on Index.js 
+Right click on Index.js \
 ![Screenshot 2025-06-19 191256](https://github.com/user-attachments/assets/771f56cc-c1f3-4b2a-a44d-1106b1cf7fe1)
 
-Select open in integrated terminal 
+Select open in integrated terminal \
 ![Screenshot 2025-06-19 191344](https://github.com/user-attachments/assets/c911365f-d9b1-413e-81a9-9f654d3f5b2a)
 
 # Step 5
