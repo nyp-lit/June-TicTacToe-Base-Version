@@ -7,13 +7,13 @@ Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQ
 
 # Steps to setup
 # Step 1
-# Ensure Visual Studio Code is installed
+Ensure Visual Studio Code is installed
 if not installed \
-# Visit https://code.visualstudio.com/ 
+Visit https://code.visualstudio.com/ 
 
-# Ensure Node Js is installed 
+Ensure Node Js is installed 
 if not installed \
-# https://nodejs.org/en ( Node Js v22.16.0 )
+https://nodejs.org/en ( Node Js v22.16.0 )
 
 # Step 2
 Download Zip file under code from this file 
