@@ -1,5 +1,5 @@
 # June-TicTacToe-Base-Version
-Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQAybw5L1ovbAvIss/edit?usp=sharing
+Slide link: https://docs.google.com/presentation/d/1k1nKbp26XTJuTXWtUZ3UqqMMLLaQAybw5L1ovbAvIss/edit?usp=sharing \
 Practical Workshop Reference Document: https://docs.google.com/document/d/1CbW9NSMyRpD-D0SE0RnTgXM2b500L4d2Ir5gAAfkUqU/edit?usp=sharing
 
 # Package used
@@ -44,6 +44,9 @@ Type npm start !
 
 # Output:
 ![Screenshot 2025-06-19 193543](https://github.com/user-attachments/assets/be8b56ae-0ac8-410f-bf95-8ca247ec7bdf)
+
+You may download and play the full game here:
+https://github.com/nyp-lit/TicTacToe-Workshop.git
 
 
 
